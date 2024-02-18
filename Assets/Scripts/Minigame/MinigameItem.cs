@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/**<summary> Tracked minigame item / projectile </summary>*/
 public class MinigameItem : MonoBehaviour
 {
     [SerializeField] private float lifeTime;
