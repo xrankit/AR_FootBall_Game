@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Energy : Collectable
 {
-    /**<summary> Called when trigger is entered, Pickup Item </summary>*/
+ 
     public void OnTriggerEnter(Collider col)
     {
         Pickup(col.attachedRigidbody.gameObject);
