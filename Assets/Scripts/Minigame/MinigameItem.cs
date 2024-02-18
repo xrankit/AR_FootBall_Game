@@ -8,7 +8,7 @@ public class MinigameItem : MonoBehaviour
     [HideInInspector] public bool scored;
 
     private bool _moved;
-    /**<summary> Has this item been moved (hit, thrown etc.) </summary>*/
+   
     public bool moved
     {
         get { return _moved; }
