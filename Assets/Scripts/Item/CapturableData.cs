@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-/**<summary> Data for Weapon Items </summary>*/
+
 [CreateAssetMenu(fileName = "Capturable", menuName = "Item/Capturable")]
 [System.Serializable]
 public class CapturableData : WeaponData
