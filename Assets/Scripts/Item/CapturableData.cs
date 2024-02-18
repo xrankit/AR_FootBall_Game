@@ -14,8 +14,6 @@ public class CapturableData : WeaponData
     public int maxHp;
 
     public CapturableData() { }
-
-    /**<summary> Create new Item class </summary>*/
     public CapturableData(string id, string itemPrefab, string name, string description, Vector3 position, Quaternion rotation, int value, bool local, string owner, long timestamp, int damage, int energyCost, float fireRate, float range, float hitForce, int maxHp)
     {
         this.id = id;
