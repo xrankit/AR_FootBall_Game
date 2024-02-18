@@ -16,7 +16,6 @@ public class Energy : Collectable
         Pickup(caller);
     }
 
-    /**<summary> Send message to collector (player) </summary>*/
     override public void PickupMessage(GameObject collector)
     {
         collector.SendMessage("OnEnergyCollected", data, SendMessageOptions.DontRequireReceiver);
