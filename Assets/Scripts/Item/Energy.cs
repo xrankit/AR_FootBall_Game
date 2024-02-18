@@ -11,7 +11,6 @@ public class Energy : Collectable
         Pickup(col.attachedRigidbody.gameObject);
     }
 
-    /**<summary> Collect the Energy Item </summary>*/
     override public void Interact(GameObject caller)
     {
         Pickup(caller);
