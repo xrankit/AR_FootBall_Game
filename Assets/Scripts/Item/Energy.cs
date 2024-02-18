@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/**<summary> Energy collectable, autocollecting on proximity </summary>*/
 public class Energy : Collectable
 {
     /**<summary> Called when trigger is entered, Pickup Item </summary>*/
